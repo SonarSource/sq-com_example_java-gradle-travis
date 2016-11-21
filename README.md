@@ -11,5 +11,8 @@ It is very easy to run an analysis on a Gradle-based project and push it to Sona
   1. Activate the [SonarQube.com Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
   2. Run `./gradlew sonarqube` at some point of time in the `script` section
 
-You can take a look at the [.travis.yml file](https://github.com/SonarSource/sq-com_example_java-gradle-travis/blob/master/.travis.yml) 
-of this project to see it in practice.
+You can take a look at the
+[build.gradle](https://github.com/SonarSource/sq-com_example_java-gradle-travis/blob/master/build.gradle)
+and 
+[.travis.yml](https://github.com/SonarSource/sq-com_example_java-gradle-travis/blob/master/.travis.yml)
+files of this project to see it in practice.
