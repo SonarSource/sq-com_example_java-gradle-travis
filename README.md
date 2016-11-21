@@ -5,6 +5,7 @@
 #### This project is analysed on [SonarQube.com](https://sonarqube.com)!
 
 It is very easy to run an analysis on a Gradle-based project and push it to SonarQube.com:
+
 1. Declare the `org.sonarqube` plugin in your `build.gradle` file
 2. In your `.travis.yml` file:
   1. Activate the [SonarQube.com Travis Add-on](https://docs.travis-ci.com/user/sonarqube/)
