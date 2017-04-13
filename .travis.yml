@@ -21,5 +21,9 @@ cache:
     - '$HOME/.gradle'
     - '.gradle'
 
+# Don't copy the following part if your usnig this project as a starting point of yours
 notifications:
   email: false
+  webhooks:
+    - secure: "VYQNfVzOnYwHgjwDuQzzU71hLk454WBaTlNfM3YNWPacAHoYssHA9GvTS3RihOnSgvAbYq1mism0ncDW3/joFjQG1xZQUPlE9M9jsAyMO0eaJIIpPP6guXjxeouLBBms3FHULFcUFRsfO1TtRIlNK0IE/A65r6WPkejnZGzKw5s2TxSDBVDEmUsmG0DKqOop1PeOFsOs97Dm+9QaHBGZbZEQzMK8GGlLjadfCXO9WaN4Irw8aHMwkQj7UiKzWOFizTcbQc0WNQWvQn81qQew//yPV6WUHqivcU1bNiQqyzKtQ2FyeKOonMOKXHZ12E6hItF5hD9FX4A9cjgtQ7V0OoifO4zu1xMRIsnSaq+g/VOQmD/jFaxOnIPKC3atrxpgJQF9mpv8d90wVdC3dsDyVRopIOlCFSGJibTJ9MRI6R+XJTb6VhTRSQK/2HQaKrSlLEKk/r4LssdNp40eflh9CFZNw3h6bD6KV5LtO42yrIjy2SpH9L2tr0RwstGSAZB1rO7ITaShpW06gJbYe3Pc7KLW8w+geJJn4k+FGQ0WortmZ5Nj3euffJKmEjdy8FpZjClEhgbLu0iXRieiSfbb5rF2sqAXEM0+DVEPxFGbnjd+W50CLS+7xi8CEOLR/lq22kmmBYr2KxE9+CFvscRq/JguAotkUhwLZ/5ZFIeNpF0="
+  on_start: always
