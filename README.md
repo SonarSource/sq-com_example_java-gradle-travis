@@ -1,10 +1,10 @@
-# Java Gradle-based project analyzed on SonarCloud using Travis
+# Java Gradle-based project analyzed on SonarQube Cloud using Travis
 
 [![Build status](https://travis-ci.org/SonarSource/sq-com_example_java-gradle-travis.svg?branch=master)](https://travis-ci.org/SonarSource/sq-com_example_java-gradle-travis) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=com.sonarqube.examples.java-gradle-travis-project&metric=alert_status)](https://sonarcloud.io/dashboard/index/com.sonarqube.examples.java-gradle-travis-project)
 
-#### This project is analysed on [SonarCloud](https://sonarcloud.io)!
+#### This project is analysed on [SonarQube Cloud](https://www.sonarsource.com/products/sonarcloud/)!
 
-It is very easy to run an analysis on a Gradle-based project and push it to SonarCloud:
+It is very easy to run an analysis on a Gradle-based project and push it to SonarQube Cloud:
 
 1. Declare the `org.sonarqube` plugin in your `build.gradle` file
 2. In your `.travis.yml` file:
@@ -19,6 +19,6 @@ files of this project to see it in practice.
 
 ### License
 
-Copyright 2016-2017 SonarSource.
+Copyright 2016-2024 SonarSource.
 
 Licensed under the [GNU Lesser General Public License, Version 3.0](http://www.gnu.org/licenses/lgpl.txt)
